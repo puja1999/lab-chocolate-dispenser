@@ -46,7 +46,7 @@ dispenseChocolates = (number,chocolates) =>{
     let chocolate = [];
     if (number <= 0)
         return "It cannot be zero";
-    for (let i = 0; i < Number; i++)
+    for (let i = 0; i < number; i++)
         chocolate.push(chocolates.push());
     return chocolate;
 }
